@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body > *{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: sans-serif;
+}
+
+.first {
+    background-color: #1F2937;
+    padding-top: 20px;
+}
+.firstTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headLogo{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+.menuLinks{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.firstBottom{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.firstBottomRight > p{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.HeroText{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border:none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+.second {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+.secondImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+.secondImages > div {
+    width: 125px;
+}
+.secondImages > div > img {
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+}
+.third{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+.thirdQuote{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    width: 1000px;
+}
+.thirdQuote > h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+.thirdQuote > h2 {
+    align-self: flex-end;
+}
+.fourth {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.fourthInside{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+.fourthInside > div {
+    color: #E5E7EB;
+}
+.fourthInside > div > h3 {
+    font-weight: 100;
+}
+.fourthInside > input {
+    border: 4px solid #E5E7EB;
+    height: 50px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
+
